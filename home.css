@@ -1,0 +1,74 @@
+.nav-element {
+  display: inline-block;
+  font-size: 20px;
+  border-bottom: 2px solid;
+  padding: 10px;
+  text-align: center;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 10px 10px;
+}
+.nav-element a {
+  text-decoration: none;
+  color: black;
+}
+.nav {
+  background: #8000806b;
+}
+.logo {
+  width: 20%;
+  border: none;
+}
+.authbtn {
+  width: 30%;
+  border: none;
+}
+.main-img-banner {
+  display: block;
+  margin: auto;
+}
+.main-title {
+  text-align: center;
+  margin: 50px;
+  font-size: 40px;
+  background: #ca94ca;
+  padding: 10px;
+}
+
+.insurance-category {
+  background: #80808014;
+  width: 50%;
+  margin: 20px;
+  padding: 15px;
+  box-shadow: 7px 7px #ca94ca;
+}
+.motor-insurance {
+  margin: auto;
+}
+.property-insurance {
+  float: right;
+}
+.insurance-categories h1 {
+  color: #ca94ca;
+}
+.footer {
+  clear: both;
+  background: #607d8b;
+  padding: 30px;
+  position: relative;
+  top: 40px;
+}
+.end {
+  text-align: center;
+}
+.footer span {
+  padding: 20px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.footer div {
+  width: 75%;
+  margin: auto;
+}

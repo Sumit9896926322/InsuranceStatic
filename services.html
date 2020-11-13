@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./services.css">
+    
+    <ul class="nav">
+        <li class = "nav-element logo">Logo</li>
+        <li class = "nav-element">  <a href="./home.html"> Home</a> </li>
+        <li  class = "nav-element"><a href="./services.html"> Our services</a></li>
+        <li  class = "nav-element"><a href="./about.html"> About us</a> </li>
+        <li  class = "nav-element"> <a href="./contact.html"> Contact us</a> </li>
+           <li  class = "nav-element authbtn">Sign In/Register</li>
+       </ul>
+  
+       <h1 class = "headline">You choose,We provide...</h1>
+       <div class="services">
+        <form class = "contact-us" >
+      
+            <div>
+              <label for="name">Name</label>
+              <input class = "name" type="text" id="name" name="name" placeholder="Your name..">
+            </div>
+          
+            <div>
+              <label for="age">Age</label>
+              <select class = "age" name="age" id="ages">
+                <option value="low">0-25 years</option>
+                <option value="middle">25-50 years</option>
+                <option value="high">50-80 years</option>
+                <option value="full">Whole life</option>
+              </select>
+
+            </div>
+        
+            <!-- <div>
+  
+              <label for="gender">Gender</label>
+              <input class = "gender" type="text" id="Gender" name="Gender" placeholder="Male or female?">  
+            </div> -->
+        
+            <div>
+  
+              <label for="budget">Budget</label>
+    
+                <select class = "budget" name="budget" id="budget">
+                    <option value="hidden">Enter the amount in dollars</option>
+                  <option value="fifty">50</option>
+                  <option value="hundred">100</option>
+                  <option value="twohundred">200</option>
+                </select>
+
+              
+            </div>
+
+            
+            <div>
+  
+                
+                <label for="Duration">Duration</label>
+
+                <select class = "duration" name="Duration" id="duration">
+                  <option value="tenyears">10 years</option>
+                  <option value="twentyyears">20 years</option>
+                  <option value="thirtyyears">30 years</option>
+                </select>
+
+                
+              </div>
+
+              
+            <div>
+  
+                <label for="policy">Policy</label>
+
+              <select class = "policy" name="policy-type" id="policy">
+                <option value="health_insurance">Health Insurance</option>
+                <option value="motor_Insurance">Motor Insurance</option>
+                <option value="home_Insurance">Home Insurance</option>
+                
+              </select>
+                
+              </div>
+              
+  
+            <div class="send-btn">
+              <button class = "submitBtn" type = "submit">Submit</button>
+            </div>
+         
+        
+          </form>
+       </div>
+
+       <div class="results">
+           <div class="policy">
+               <img src="./assets/health/edelweiss.jpg" alt="">
+               <h3>Edeliss</h3>
+               <h3>100$</h3>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, quod aliquam aliquid reprehenderit impedit assumenda incidunt dicta deleniti laboriosam est!</p>
+           </div>
+       </div>
+
+   <div class="footer">
+       <div>
+        <span>Turkey, lg 12678  LONDON </span>
+        <span>Privacy statement</span>
+        <span>Terms of use
+        <span>Techblog</span>
+        <span>Prosus</span>
+       </div>
+   
+    <hr>
+    <div class="end">Copyright 2020 All rights reserved!</div>
+
+   </div>
+    <script src="services.js"></script>
+</body>
+</html>
