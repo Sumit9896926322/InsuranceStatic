@@ -1,0 +1,41 @@
+form div {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.contact-us input,
+textarea {
+  width: 60%;
+  margin: 20px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 2px solid #ca94ca;
+}
+.contact-us label {
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px #ca94ca;
+}
+.headline {
+  margin: 30px;
+  text-align: center;
+  text-shadow: 3px 3px #ca94ca;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.send-btn button {
+  padding: 10px;
+  font-size: 20px;
+  border-style: none;
+  background: none;
+  text-shadow: 1px 1px #ca94ca;
+}
+
+.active {
+  border-bottom: 2px solid #ca94ca;
+  padding: 5px;
+}

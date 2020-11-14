@@ -7,7 +7,7 @@
 </head>
 <body>
     <link rel="stylesheet" href="./home.css">
-    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./signin.css">
     
     <ul class="nav">
       <li class = "nav-element logo">Logo</li>
@@ -15,40 +15,36 @@
          <li  class = "nav-element"><a href="./services.html"> Our services</a></li>
          <li  class = "nav-element"><a href="./about.html"> About us</a> </li>
          <li  class = "nav-element"> <a href="./contact.html"> Contact us</a> </li>
-         <li  class = "nav-element authbtn"><a href="./signin.html"> Sign In/register</a></li>
+         <li  class = "nav-element authbtn">Sign In/Register</li>
      </ul>
-     <h1 class = "headline">Get In Touch</h1>
+     <h1 class = "headline">Join With us</h1>
+     <h2 class = "headline headline-2">Click signup/sigin</h2>
         <form class = "contact-us" >
       
-          <div>
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" placeholder="Your name..">
-          </div>
-        
-          <div>
+         <div>
             <label for="email">Your email</label>
             <input type="text" id="email" name="email" placeholder="Your email..">  
           </div>
-      
+
           <div>
-
-            <label for="subject">Subject</label>
-            <input type="text" id="email" name="subject" placeholder="Your subject..">  
+            <label for="name">Your password</label>
+            <input type="password" id="password" name="password" placeholder="Your password..">
+          </div>
+        
+          
+          <div class="send-btn submit-container">
+            <button class = "submit-btn"  type = "submit">Submit</button>
           </div>
       
-          <div>
 
-            <label for="message">Message</label>
-            <input type="text" id="message" name="message" placeholder="Your message.."> 
-            
+          <div class="send-btn signup-container">
+            <button class = "signup"  type = "submit">Sign Up</button>
           </div>
-       
+          <div class="send-btn signin-container">
+            <button class = "signin "  type = "submit">Sign In</button>
+          </div>
 
-          <div class="send-btn">
-            <button type = "submit">Submit</button>
-          </div>
-       
-      
+    
         </form>
       </div>
 
@@ -66,5 +62,6 @@
 
    </div>
     
+   <script src="signin.js"></script>
 </body>
 </html>
