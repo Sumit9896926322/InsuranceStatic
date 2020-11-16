@@ -82,6 +82,7 @@ submit.addEventListener("click", (e) => {
             users.push(user_serialized);
             localStorage.setItem("users", JSON.stringify(users));
         }
+        alert("New User Created Try to login now");
     } else {
         console.log("Sign in");
         if (localStorage.getItem("users") != null) {

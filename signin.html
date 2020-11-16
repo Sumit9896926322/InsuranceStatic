@@ -15,7 +15,7 @@
          <li  class = "nav-element"><a href="./services.html"> Our services</a></li>
          <li  class = "nav-element"><a href="./about.html"> About us</a> </li>
          <li  class = "nav-element"> <a href="./contact.html"> Contact us</a> </li>
-         <li  class = "nav-element authbtn">Sign In/Register</li>
+         <li  class = "nav-element authbtn"><a class = "authstatus" href="./signin.html"> Sign In/Register</a></li>
      </ul>
      <h1 class = "headline">Join With us</h1>
      <h2 class = "headline headline-2">Click signup/sigin</h2>
@@ -61,6 +61,14 @@
     <div class="end">Copyright 2020 All rights reserved!</div>
 
    </div>
+   <script>
+       
+    const authstatus = document.querySelector(".authstatus");
+    let current_user = localStorage.getItem("cusername");
+        if (current_user) 
+            authstatus.innerText = current_user;
+    
+    </script> 
     
    <script src="signin.js"></script>
 </body>

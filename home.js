@@ -11,7 +11,7 @@ window.onload = function (e) {
         elem.classList.add("authbtn");
         elem.innerHTML = `
         <a class = "logout authstatus" href="./home.html"> Logout</a>
-     </li>`;
+     `;
         nav.appendChild(elem);
 
 

@@ -15,7 +15,7 @@
          <li  class = "nav-element"><a href="./services.html"> Our services</a></li>
          <li  class = "nav-element"><a href="./about.html"> About us</a> </li>
          <li  class = "nav-element"> <a href="./contact.html"> Contact us</a> </li>
-         <li  class = "nav-element authbtn"><a href="./signin.html"> Sign In/Register</a></li>
+         <li  class = "nav-element authbtn"><a class = "authstatus" href="./signin.html"> Sign In/Register</a></li>
      </ul>
      <h1 class = "headline">Get In Touch</h1>
         <form class = "contact-us" >
@@ -66,5 +66,13 @@
 
    </div>
     
+   <script>
+       
+    const authstatus = document.querySelector(".authstatus");
+    let current_user = localStorage.getItem("cusername");
+        if (current_user) 
+            authstatus.innerText = current_user;
+    
+    </script> 
 </body>
 </html>
