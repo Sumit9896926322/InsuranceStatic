@@ -21,7 +21,7 @@
   border: none;
 }
 .authbtn {
-  width: 30%;
+  width: 15%;
   border: none;
 }
 .main-img-banner {
@@ -71,4 +71,15 @@
 .footer div {
   width: 75%;
   margin: auto;
+}
+
+.logout {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.logo img {
+  position: absolute;
+  left: 25px;
+  top: 10px;
 }
