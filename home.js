@@ -1,5 +1,5 @@
 const authstatus = document.querySelector(".authstatus");
-const nav = document.querySelector(".nav");
+const nav = document.querySelector(".nav-second-row");
 const desc = document.querySelector(".desc-btn");
 
 window.onload = function (e) {
