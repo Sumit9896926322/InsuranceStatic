@@ -1,5 +1,6 @@
 const authstatus = document.querySelector(".authstatus");
 const nav = document.querySelector(".nav");
+const desc = document.querySelector(".desc-btn");
 
 window.onload = function (e) {
     let current_user = localStorage.getItem("cusername");

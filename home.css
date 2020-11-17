@@ -83,3 +83,22 @@
   left: 25px;
   top: 10px;
 }
+.desc-btn {
+  background: #ca94ca;
+  height: 50px;
+  font-size: 22px;
+  cursor: pointer;
+  font-family: monospace;
+  border: 2px dashed;
+}
+.desc-btn a {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+.about-us-partners img {
+  width: 25%;
+  padding: 20px;
+  margin: 0px 10px;
+}

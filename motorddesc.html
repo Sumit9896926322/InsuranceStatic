@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insuro</title>
+</head>
+<body>
+    <link rel="stylesheet" href="./home.css">
+    
+    <ul class="nav">
+        <li class = "nav-element logo"><a href="./home.html"><img src="./assets/logo.png"  alt=""></a></li>
+           <li class = "nav-element">  <a href="./home.html"> Home</a> </li>
+           <li  class = "nav-element"><a href="./services.html"> Our services</a></li>
+           <li  class = "nav-element"><a href="./about.html"> About us</a> </li>
+           <li  class = "nav-element"> <a href="./contact.html"> Contact us</a> </li>
+           <li  class = "nav-element authbtn">
+               <a class = "authstatus" href="./signin.html"> Sign In/Register</a>
+            </li>
+            
+       </ul>
+  
+       <div class="insurance-desc" style="text-align: center;font-size: 18px;">
+           <img  style="width: 94%; margin-top: 40px;"  src="./assets/motori.jpg" alt="">
+           <h1>Motor Insurance</h1>
+          
+           Our motor insurance include
+           <ul style="list-style: none;">
+               <li> <b>  Life Long Renewability: </b>We provide total amount you have spend in you vehcile expense,within 60-90 days</li>
+              
+               <li><b>Policy period:</b>We have variety of policy option ,if you want custom plolicy plans checkout our services tab.</li>
+               
+               <li><b>Cashless Home Repairs:</b> We have plenty of partners that can take care of your vehicle repairment. 
+               </li>
+               
+               <li><b>Tax Benefit:</b> You can get a relaxtaion in tax benefit in all our plans</li>
+           </ul>
+           We provide the best of motor insurance.We take care off all your vehciles.We offer comprehensive plan which will help your vehcile diagnosis in the early and last stage of your vehcile.
+
+           Why to take risk?A survey shows that acciednt rate is spreading as twice as it should be.we have got you covered in every aspect.Whether it is accident,theft issue or any repairement.We are also providing a lot of checks to treat your car better.
+
+            <br>
+            <hr>
+            <h3>Benefits Involved</h3>
+           
+            1.Third-party Liability Cover
+            2. Personal Accident Cover
+            3. Car Accident
+            4. Damages Due to Fire
+            5. Car Theft
+            6. Calamities
+            7. Add-ons
+          
+           <h1 style="text-align: center;">Some of our partners are</h1>
+           <div class = "about-us-partners">
+               <img src="./assets/health/star.jpg" alt="">
+               <img src="./assets/health/tataiz.jpg" alt="">
+               <img src="./assets/health/universalsompo.jpg" alt="">
+           </div>
+       </div>
+   <div class="footer">
+       <div>
+        <span>Turkey, lg 12678  LONDON </span>
+        <span>Privacy statement</span>
+        <span>Terms of use
+        <span>Techblog</span>
+        <span>Prosus</span>
+       </div>
+   
+    <hr>
+    <div class="end">Copyright 2020 All rights reserved!</div>
+
+   </div>
+   <script>
+       
+    const authstatus = document.querySelector(".authstatus");
+    let current_user = localStorage.getItem("cusername");
+        if (current_user) 
+            authstatus.innerText = current_user;
+    
+    </script> 
+    <script src="home.js"></script>
+</body>
+</html>
